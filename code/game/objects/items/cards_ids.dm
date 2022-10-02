@@ -1214,6 +1214,18 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
+/obj/item/card/id/bandittattoo
+	name = "faded bandit tattoo"
+	desc = "Tattoo brand for all the deviants of the wastes."
+	icon_state = "skin"
+	item_state = "skin"
+	assignment = "gang tattoo"
+	uses_overlays = FALSE
+
+/obj/item/card/id/outcasttattoo/Initialize()
+	. = ..()
+	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
+
 /* Tribal Tags
 */
 

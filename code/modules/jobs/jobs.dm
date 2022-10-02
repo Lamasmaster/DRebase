@@ -229,14 +229,13 @@ GLOBAL_LIST_INIT(vault_positions, list(
 ))
 
 GLOBAL_LIST_INIT(wasteland_positions, list(
-	"Faithful",
-	"Vigilante",
+	"Wastelander",
 	"Preacher",
 	"Far-Lands Tribals",
-	"Wastelander",
 ))
 
 GLOBAL_LIST_INIT(raider_positions, list(
+	"Bandit",
 	"Outlaw",
 	"Desperado Enforcer",
 	"Desperado Leader",
@@ -308,7 +307,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 
 	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | oasis_positions | legion_positions | ncr_positions | wasteland_positions | tribal_positions | enclave_positions),
 
-	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
+	EXP_TYPE_OUTLAW = list("titles" = list("Bandit","Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
 	EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
 	EXP_TYPE_EASTWOOD = list("titles" = oasis_positions ),
 	EXP_TYPE_RAIDER = list("titles" = raider_positions),
